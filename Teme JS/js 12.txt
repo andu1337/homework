@@ -1,0 +1,2 @@
+const totalYears = inventors.reduce((total, inventor) => total + (inventor.passed - inventor.year), 0);
+console.log(totalYears);

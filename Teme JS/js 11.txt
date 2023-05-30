@@ -1,0 +1,2 @@
+const galileo = inventors.find(inventor => inventor.first === "Galileo" && inventor.last === "Galilei");
+console.log(galileo);

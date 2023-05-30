@@ -1,0 +1,3 @@
+const isAtLeastOnePerson19OrOlder = friends.some(friend => (new Date().getFullYear() - friend.year) >= 19);
+
+console.log(isAtLeastOnePerson19OrOlder);

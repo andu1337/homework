@@ -1,0 +1,28 @@
+const data = [
+    "car",
+    "car",
+    "truck",
+    "truck",
+    "bike",
+    "walk",
+    "car",
+    "van",
+    "bike",
+    "walk",
+    "car",
+    "van",
+    "car",
+    "truck"
+];
+
+const counts = {};
+
+data.forEach(item => {
+    if (counts[item]) {
+        counts[item] += 1;
+    } else {
+        counts[item] = 1;
+    }
+});
+
+console.log(counts);

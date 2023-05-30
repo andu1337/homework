@@ -1,0 +1,2 @@
+const inventorNames = inventors.map(inventor => inventor.first + ' ' + inventor.last);
+console.log(inventorNames);

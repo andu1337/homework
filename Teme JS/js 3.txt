@@ -1,0 +1,13 @@
+function calculateAverageSalary(employees) {
+  var sum = 0;
+
+  employees.forEach(function(employee) {
+    sum += parseFloat(employee.salary);
+  });
+
+  var average = sum / employees.length;
+  return average;
+}
+
+var average = calculateAverageSalary(employees);
+console.log("average", average);

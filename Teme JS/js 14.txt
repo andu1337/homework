@@ -1,0 +1,75 @@
+Toate adressele:
+
+City gates of Paris
+Haussmann's renovation of Paris
+Boulevards of the Marshals
+A
+Boulevard Auguste-Blanqui
+B
+Boulevard Barbès
+Boulevard Beaumarchais
+Boulevard de l'Amiral-Bruix
+Boulevard Mortier
+Boulevard Poniatowski
+Boulevard Soult
+C
+Boulevard des Capucines
+Boulevard de la Chapelle
+Boulevard de Clichy
+Boulevard du Crime
+G
+Boulevard du Général-d'Armée-Jean-Simon
+H
+Boulevard Haussmann
+Boulevard de l'Hôpital
+I
+Boulevard des Italiens
+L
+Boulevard Lefebvre
+M
+Boulevard de la Madeleine
+Boulevard de Magenta
+Boulevard Malesherbes
+Boulevard Marguerite-de-Rochechouart
+Boulevard Montmartre
+Boulevard du Montparnasse
+R
+Boulevard Raspail
+Boulevard Richard-Lenoir
+S
+Boulevard Saint-Germain
+Boulevard Saint-Michel
+Boulevard de Sébastopol
+Boulevard de Strasbourg
+T
+Boulevard du Temple
+V
+Boulevard Voltaire
+Z
+Boulevard de la Zone
+
+adressele care contin 'de' 
+Boulevard de l'Amiral-Bruix
+Boulevard de la Chapelle
+Boulevard de Clichy
+Boulevard du Crime
+Boulevard du Général-d'Armée-Jean-Simon
+Boulevard de l'Hôpital
+Boulevard des Italiens
+Boulevard de la Madeleine
+Boulevard de Magenta
+Boulevard Marguerite-de-Rochechouart
+Boulevard Montmartre
+Boulevard du Montparnasse
+Boulevard Raspail
+Boulevard Richard-Lenoir
+Boulevard Saint-Germain
+Boulevard Saint-Michel
+Boulevard de Sébastopol
+Boulevard de Strasbourg
+Boulevard du Temple
+Boulevard Voltaire
+Boulevard de la Zone
+
+folosind acest cod 
+const boulevardsWithDe = boulevards.filter(boulevard => boulevard.includes('de'));

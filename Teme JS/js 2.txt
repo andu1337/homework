@@ -1,0 +1,16 @@
+function collectFirstName(employees) {
+    console.info("employees: ", employees);
+
+    if (!employees) {
+        console.info("You did not provide any value");
+        return [];
+    }
+
+    var firstNames = employees.map(function(employee) {
+        return employee.firstName;
+    });
+
+    console.log("First Names:", firstNames);
+    return firstNames;
+}
+collectFirstName(employees);

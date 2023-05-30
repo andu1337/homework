@@ -1,0 +1,3 @@
+const isEveryone19OrOlder = friends.every(friend => (new Date().getFullYear() - friend.year) >= 19);
+
+console.log(isEveryone19OrOlder);

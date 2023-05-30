@@ -1,0 +1,15 @@
+function splitEmployees(employees) {
+  var maleEmployees = employees.filter(function(employee) {
+    return employee.gender === "Male";
+  });
+
+  var femaleEmployees = employees.filter(function(employee) {
+    return employee.gender === "Female";
+  });
+
+  return [maleEmployees, femaleEmployees];
+}
+
+var [maleEmployees, femaleEmployees] = splitEmployees(employees);
+console.log("Male Employees:", maleEmployees);
+console.log("Female Employees:", femaleEmployees);

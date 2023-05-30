@@ -1,0 +1,17 @@
+function calculateAverageFemSalary(employees) {
+  var sum = 0;
+  var count = 0;
+
+  employees.forEach(function(employee) {
+    if (employee.gender === "Female") {
+      sum += parseFloat(employee.salary);
+      count++;
+    }
+  });
+
+  var average = sum / count;
+  return average;
+}
+
+var average = calculateAverageFemSalary(employees);
+console.log("average", average);

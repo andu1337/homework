@@ -1,0 +1,12 @@
+function convertToEmployeeObject(employees) {
+  var employeeObject = {};
+
+  employees.forEach(function(employee) {
+    employeeObject[employee.lastName] = employee;
+  });
+
+  return employeeObject;
+}
+
+var employeeObject = convertToEmployeeObject(employees);
+console.log(employeeObject);

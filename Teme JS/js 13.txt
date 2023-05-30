@@ -1,0 +1,2 @@
+const sortedInventors = inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year));
+console.log(sortedInventors);
